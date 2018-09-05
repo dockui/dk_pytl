@@ -10,7 +10,7 @@ sysstr = platform.system()
 if sysstr == "Darwin":
 	cmd_path = os.path.join(os.getcwd(), "pngquant/pngquant")
 elif sysstr == "Windows":
-	cmd_path = os.path.join(os.getcwd(), "pngquant/pngquant32")
+	cmd_path = os.path.join(os.getcwd(), "pngquant/pngquant")
 
 
 print "###########start#####################"
